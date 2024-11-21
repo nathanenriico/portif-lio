@@ -158,13 +158,47 @@ body{
 }
 
 .guarantee .item .info p{
-    color: #fff;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600;
 }
 
+.item .info p {
+  color: #333;
+}
+
+.item .info a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.item .info a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.item .info p {
+    color: #333;
+  }
+  
+  .item .info a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  .item .info a:hover {
+    color: #ffb742;
+    border-bottom: 2px solid #ffb742;
+  }
+
 .guarantee .item > i{
-    color: #fff;
+    color: #ffffff;
     font-size: 30px;
     transition: color 0.3s ease;
 }
@@ -565,5 +599,21 @@ footer .cols .news-col form button i{
     .guarantee .item .info p{
         font-size: 12px;
     }
+    .item .info p {
+  color: #333;
+}
+
+.item .info a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.item .info a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
 
 }
